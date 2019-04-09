@@ -2,4 +2,5 @@ title: Redhat Procedures
 description: These procedures should help you do <something>.  Coming soon!
 show_downloads: false
 google_analytics:
+github: is_project_page: false
 theme: jekyll-theme-cayman
