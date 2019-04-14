@@ -1,4 +1,4 @@
-This appendix includes specific QuickStart procedures for ownCloud server. 
+This appendix includes specific QuickStart procedures for ownCloud platform. 
 
 ## Introduction
 
