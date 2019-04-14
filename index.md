@@ -16,7 +16,9 @@ The ownCloud platform is a flexible and durable open source file synchronization
 
  - ownCloud server, which runs on Linux.
  - Client applications for Microsoft Windows, Max OS X, and Linux.
- - Mobile clients for the Android and Apple iOS operating systems
+ - Mobile clients for the Android and Apple iOS operating systems.
+
+This appendix includes specific QuickStart procedures for ownCloud server.  For more information on ownCloud, refer to the [complete documentation set](https://doc.owncloud.com).
 
 ## Installing
 
