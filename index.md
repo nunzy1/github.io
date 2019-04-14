@@ -54,7 +54,20 @@ Perform the following steps.
         HTTP_PORT=8080
         EOF`    
  
- 
+ 5. Build and start your container.  
+    `docker-compose up -d`
+ 6. Check that your containers have started.  
+      `docker-compose ps`
+
+    The output of the command shows the ownCloud database, ownCloud, and Redis containers running.  It also shows that ownCloud is accessible on host machine port 8080.
+
+ 7. Run the following command.  
+     `docker-compose logs --follow owncloud`  
+  
+    If the output shows a significant amount of information being logged to the console, wait a few minutes before performing the next step.  
+ 8. Launch your browser and access the ownCloud UI.  The username and password are the ones you stored in the .env file.  
+
+    `[http://localhost:8080](http://localhost:8080/)`
  
  
 ### Header 3
