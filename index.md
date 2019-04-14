@@ -12,7 +12,11 @@ There should be whitespace between paragraphs. We recommend including a README, 
 
 # Introduction
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+The ownCloud platform is a flexible and durable open source file synchronization and sharing solution.  The solution includes:
+
+ - ownCloud server, which runs on Linux.
+ - Client applications for Microsoft Windows, Max OS X, and Linux.
+ - Mobile clients for the Android and Apple iOS operating systems
 
 ## Installing
 
