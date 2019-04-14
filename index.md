@@ -69,7 +69,7 @@ Perform the following steps.
 
       [http://localhost:8080](http://localhost:8080/)
   
- ## Enabling User Connections to an LDAP Server
+## Enabling User Connections to an LDAP Server
 You must have admin privileges to perform this procedure.
 
 This procedure provides the steps necessary to allow a user to connect to an LDAP server using the server’s IP address and port.  The examples in the procedure use 192.0.2.1 as the IP, and 8080 as the port number.
