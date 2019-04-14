@@ -1,14 +1,3 @@
----
-layout: default
----
-
-Text can be **bold**, _italic_, or ~~strikethrough~~.
-
-[Link to another page](./another-page.html).
-
-There should be whitespace between paragraphs.
-
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
 # Introduction
 
@@ -44,7 +33,7 @@ Perform the following steps.
    
         wget https://raw.githubusercontent.com/owncloud-docker/server/master/docker-compose.yml  
 
- 4. Create an .env configuration file, including required settings as shown in the following sample.
+ 4. Create an **.env** configuration file, including required settings as shown in the following sample.
 
         `cat << EOF > .env
         OWNCLOUD_VERSION=10.0
@@ -78,47 +67,47 @@ This procedure provides the steps necessary to allow a user to connect to an LDA
 
 Perform the following steps.
 
-1. Launch the LDAP Configuration Panel, which includes four tabs.
-2. Select the Server tab.
-3. In the Host field, enter the URI of your LDAP server. Preface the URI with `ldaps://`
+1. Launch the **LDAP Configuration Panel**, which includes four tabs.
+2. Select the **Server** tab.
+3. In the **Host** field, enter the URI of your LDAP server. Preface the URI with `ldaps://`
 
        ldaps://192.0.2.1
 
-4. In the port field, enter 8080.
+4. In the **port** field, enter 8080.
 
-5. In the User DN field, enter the DN of the user who will have access to the LDAP server.  A sample follows.
+5. In the **User DN** field, enter the DN of the user who will have access to the LDAP server.  A sample follows.
 
         uid=owncloudsystemuser, cn=sysusers,dc=my-company,dc=com
 
-6. In the One Base DN per line field, enter the base DN.
+6. In the **One Base DN** per line field, enter the base DN.
 7. Complete your LDAP configuration for other LDAP Configuration Panel tabs, as necessary, by following the procedures under [User Authentication with LDAP](https://doc.owncloud.com/server/10.1/admin_manual/configuration/user/user_auth_ldap.html) .
 
 ## Adding a User Account
 
 You must have admin privileges to perform this procedure.
 
-1. Launch the User Management page of the ownCloud Web UI.
+1. Launch the **User Management** page of the ownCloud Web UI.
 
     The default view displays a list of users.
 
-2. In the Username field, enter the name of the new user.  User names can contain letters, numbers, dashes, underscores, periods, and at signs.
+2. In the **Username** field, enter the name of the new user.  User names can contain letters, numbers, dashes, underscores, periods, and at signs.
 
-3. In the Password field, enter the user’s initial password.
+3. In the **Password** field, enter the user’s initial password.
 
-4. Optionally, select the Groups dropdown and assign a groups membership.
+4. Optionally, select the **Groups** dropdown and assign a groups membership.
 
-5. Click Create.
+5. Click **Create**.
 
 6. Fill-n the new user’s full name if it is different from the Username.  Alternatively, you can leave this field blank and let the user complete it.
 
 7. If you want ownCloud to send the new user an email with login information:
 
-    a. Check send email to new user.
+    a. Check **send email to new user**.
     
     b. Enter the new user’s email address.
 
-8. If you want to assign group admin privileges to your new user, select the Group Admin for dropdown.  Group administrators have the rights to create, edit, and delete users in their assigned groups.
-9. Select the Quota dropdown to choose a quota other than the default.  The quota is the maximum amount of disk space assigned to the new user.
+8. If you want to assign group admin privileges to your new user, select the **Group Admin for** dropdown.  Group administrators have the rights to create, edit, and delete users in their assigned groups.
+9. Select the **Quota** dropdown to choose a quota other than the default.  The quota is the maximum amount of disk space assigned to the new user.
    
 ## Connecting to ownCloud Using a Browser
 Perform the following steps to access your ownCloud server.
@@ -129,108 +118,8 @@ Perform the following steps to access your ownCloud server.
 
 3. Enter your username and password.
 
-4. Optionally, select Stay logged in. Note that this option may be disabled depending upon the additional applications included in your ownCloud environment.
+4. Optionally, select **Stay logged in**. Note that this option may be disabled depending upon the additional applications included in your ownCloud environment.
 
 5. Click the arrow the right of the password to login.
  
-### Header 3
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://assets-cdn.github.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
