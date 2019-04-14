@@ -36,6 +36,9 @@ Perform the following steps.
   
     The configuration exposes port 8080 for HTTP connections, and mounts the data and MySQL data directories on the host for persistent storage.
 
+ 2. On a local machine, create a new project directory.  
+  
+    `mkdir owncloud-docker-server`  
 
 ### Header 3
 
