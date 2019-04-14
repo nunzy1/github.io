@@ -91,9 +91,34 @@ Perform the following steps.
         uid=owncloudsystemuser, cn=sysusers,dc=my-company,dc=com
 
 6. In the One Base DN per line field, enter the base DN.
-7. Complete your LDAP configuration for other LDAP Configuration Panel tabs, as necessary, by following the procedures under [User Authentication with LDAP](https://doc.owncloud.com/server/10.1/admin_manual/configuration/user/user_auth_ldap.html)
+7. Complete your LDAP configuration for other LDAP Configuration Panel tabs, as necessary, by following the procedures under [User Authentication with LDAP](https://doc.owncloud.com/server/10.1/admin_manual/configuration/user/user_auth_ldap.html) .
 
-    
+## Adding a User Account
+
+You must have admin privileges to perform this procedure.
+
+1. Launch the User Management page of the ownCloud Web UI.
+
+    The default view displays a list of users.
+
+2. In the Username field, enter the name of the new user.  User names can contain letters, numbers, dashes, underscores, periods, and at signs.
+
+3. In the Password field, enter the user’s initial password.
+
+4. Optionally, select the Groups dropdown and assign a groups membership.
+
+5. Click Create.
+
+6. Fill-n the new user’s full name if it is different from the Username.  Alternatively, you can leave this field blank and let the user complete it.
+
+7. If you want ownCloud to send the new user an email with login information:
+
+    a. Check send email to new user.
+    b. Enter the new user’s email address.
+
+8. If you want to assign group admin privileges to your new user, select the Group Admin for dropdown.  Group administrators have the rights to create, edit, and delete users in their assigned groups.
+9. Select the Quota dropdown to choose a quota other than the default.  The quota is the maximum amount of disk space assigned to the new user.
+   
 
  
 ### Header 3
