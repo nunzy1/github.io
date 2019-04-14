@@ -1,4 +1,4 @@
-
+This appendix includes specific QuickStart procedures for ownCloud server. 
 
 ## Introduction
 
@@ -8,7 +8,7 @@ The ownCloud platform is a flexible and durable open source file synchronization
  - Client applications for Microsoft Windows, Max OS X, and Linux.
  - Mobile clients for the Android and Apple iOS operating systems.
 
-This appendix includes specific QuickStart procedures for ownCloud server.  For more information on ownCloud, refer to the [complete documentation set](https://doc.owncloud.com).
+For more information on ownCloud, refer to the [complete documentation set](https://doc.owncloud.com).
 
 This appendix includes:
  - [Installing an ownCloud Server with Docker](#install)
