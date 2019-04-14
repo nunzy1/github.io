@@ -114,7 +114,9 @@ You must have admin privileges to perform this procedure.
 7. If you want ownCloud to send the new user an email with login information:
 
     a. Check send email to new user.
+    
     b. Enter the new user’s email address.
+
 
 8. If you want to assign group admin privileges to your new user, select the Group Admin for dropdown.  Group administrators have the rights to create, edit, and delete users in their assigned groups.
 9. Select the Quota dropdown to choose a quota other than the default.  The quota is the maximum amount of disk space assigned to the new user.
