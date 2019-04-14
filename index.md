@@ -51,8 +51,11 @@ Perform the following steps.
         EOF`    
  
  5. Build and start your container.  
+ 
     `docker-compose up -d`
+	
  6. Check that your containers have started.  
+ 
       `docker-compose ps`
 
     The output of the command shows the ownCloud database, ownCloud, and Redis containers running.  It also shows that ownCloud is accessible on host machine port 8080.
@@ -60,7 +63,8 @@ Perform the following steps.
  7. Run the following command.  
      `docker-compose logs --follow owncloud`  
   
-    If the output shows a significant amount of information being logged to the console, wait a few minutes before performing the next step.  
+    If the output shows a significant amount of information being logged to the console, wait a few minutes before performing the next step. 
+	
  8. Launch your browser and access the ownCloud UI.  The username and password are the ones you stored in the .env file.  
 
       [http://localhost:8080](http://localhost:8080/)
@@ -75,7 +79,9 @@ This procedure provides the steps necessary to allow a user to connect to an LDA
 Perform the following steps.
 
 1. Launch the **LDAP Configuration Panel**, which includes four tabs.
+
 2. Select the **Server** tab.
+
 3. In the **Host** field, enter the URI of your LDAP server. Preface the URI with `ldaps://`
 
        ldaps://192.0.2.1
@@ -87,6 +93,7 @@ Perform the following steps.
         uid=owncloudsystemuser, cn=sysusers,dc=my-company,dc=com
 
 6. In the **One Base DN** per line field, enter the base DN.
+
 7. Complete your LDAP configuration for other LDAP Configuration Panel tabs, as necessary, by following the procedures under [User Authentication with LDAP](https://doc.owncloud.com/server/10.1/admin_manual/configuration/user/user_auth_ldap.html) .
 
 ### <a name="adding"></a>Adding a User Account
@@ -114,6 +121,7 @@ You must have admin privileges to perform this procedure.
     b. Enter the new user’s email address.
 
 8. If you want to assign group admin privileges to your new user, select the **Group Admin for** dropdown.  Group administrators have the rights to create, edit, and delete users in their assigned groups.
+
 9. Select the **Quota** dropdown to choose a quota other than the default.  The quota is the maximum amount of disk space assigned to the new user.
    
 ### <a name="connecting"></a>Connecting to ownCloud Using a Browser
