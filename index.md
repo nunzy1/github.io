@@ -69,7 +69,32 @@ Perform the following steps.
 
       [http://localhost:8080](http://localhost:8080/)
   
- 
+ ## Enabling User Connections to an LDAP Server
+You must have admin privileges to perform this procedure.
+
+This procedure provides the steps necessary to allow a user to connect to an LDAP server using the server’s IP address and port.  The examples in the procedure use 192.0.2.1 as the IP, and 8080 as the port number.
+
+**Important:** The procedure includes only include those steps required to allow a user to connect to an LDAP server using the server’s IP and port.
+
+Perform the following steps.
+
+1. Launch the LDAP Configuration Panel, which includes four tabs.
+2. Select the Server tab.
+3. In the Host field, enter the URI of your LDAP server. Preface the URI with `ldaps://`
+
+       ldaps://192.0.2.1
+
+4. In the port field, enter 8080.
+
+5. In the User DN field, enter the DN of the user who will have access to the LDAP server.  A sample follows.
+
+        uid=owncloudsystemuser, cn=sysusers,dc=my-company,dc=com
+
+6. In the One Base DN per line field, enter the base DN.
+7. Complete your LDAP configuration for other LDAP Configuration Panel tabs, as necessary, by following the procedures under [User Authentication with LDAP](https://doc.owncloud.com/server/10.1/admin_manual/configuration/user/user_auth_ldap.html)
+
+    
+
  
 ### Header 3
 
