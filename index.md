@@ -90,7 +90,7 @@ Perform the following steps.
 
 5. In the **User DN** field, enter the DN of the user who will have access to the LDAP server.  A sample follows.
 
-        uid=owncloudsystemuser, cn=sysusers,dc=my-company,dc=com
+        uid=owncloudsystemuser,cn=sysusers,dc=my-company,dc=com
 
 6. In the **One Base DN** per line field, enter the base DN.
 
