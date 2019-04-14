@@ -10,10 +10,10 @@ The ownCloud platform is a flexible and durable open source file synchronization
 This appendix includes specific QuickStart procedures for ownCloud server.  For more information on ownCloud, refer to the [complete documentation set](https://doc.owncloud.com).
 
 This appendix includes:
- - Installing an ownCloud Server with Docker [install](#install)
- - Enabling User Connections to an LDAP Server [enabling](#enabling)
- - Adding a User Account [adding](#adding)
- - Connecting to ownCloud Using a Browser [connecting](#connecting)
+ - [Installing an ownCloud Server with Docker] (#Installing an ownCloud Server with Docker)
+ - [Enabling User Connections to an LDAP Server](#Enabling User Connections to an LDAP Server)
+ - [Adding a User Account](#Adding a User Account)
+ - [Connecting to ownCloud Using a Browser](#Connecting to ownCloud Using a Browser)
 
 ## <a name="install"></a>Installing an ownCloud Server with Docker
 
