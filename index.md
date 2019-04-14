@@ -30,6 +30,13 @@ This appendix includes specific QuickStart procedures for ownCloud server.  For 
 Perform the following steps.
 
 
+ 1. Pull the latest [ownCloud Docker image](https://hub.docker.com/r/owncloud/server/).
+
+    The image works with a data volume in the host filesystem, and with separate MariaDB and Redis containers.  
+  
+    The configuration exposes port 8080 for HTTP connections, and mounts the data and MySQL data directories on the host for persistent storage.
+
+
 ### Header 3
 
 ```js
