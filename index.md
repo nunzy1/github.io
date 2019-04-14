@@ -40,6 +40,12 @@ Perform the following steps.
   
     `mkdir owncloud-docker-server`  
 
+ 3. Download docker-compose.yml from the [ownCloud Docker GitHub repository](https://github.com/owncloud-docker/server) and install it in your new project directory.  
+  
+    `wget [https://raw.githubusercontent.com/owncloud-docker/server/master/docker-compose.yml](https://raw.githubusercontent.com/owncloud-docker/server/master/docker-compose.yml)`  
+
+
+
 ### Header 3
 
 ```js
