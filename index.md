@@ -44,6 +44,19 @@ Perform the following steps.
    
         wget https://raw.githubusercontent.com/owncloud-docker/server/master/docker-compose.yml  
 
+ 4. Create an .env configuration file, including required settings as shown in the following sample.
+
+        `cat << EOF > .env
+        OWNCLOUD_VERSION=10.0
+        OWNCLOUD_DOMAIN=localhost
+        ADMIN_USERNAME=admin
+        ADMIN_PASSWORD=admin
+        HTTP_PORT=8080
+        EOF`    
+ 
+ 
+ 
+ 
 ### Header 3
 
 ```js
