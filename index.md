@@ -67,7 +67,8 @@ Perform the following steps.
     If the output shows a significant amount of information being logged to the console, wait a few minutes before performing the next step.  
  8. Launch your browser and access the ownCloud UI.  The username and password are the ones you stored in the .env file.  
 
-    `[http://localhost:8080](http://localhost:8080/)`
+      [http://localhost:8080](http://localhost:8080/)
+  
  
  
 ### Header 3
