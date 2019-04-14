@@ -20,7 +20,7 @@ The ownCloud platform is a flexible and durable open source file synchronization
 
 This appendix includes specific QuickStart procedures for ownCloud server.  For more information on ownCloud, refer to the [complete documentation set](https://doc.owncloud.com).
 
-## Installing
+## Installing an ownCloud Server with Docker
 
 > This is a blockquote following a header.
 >
