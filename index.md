@@ -22,9 +22,13 @@ This appendix includes specific QuickStart procedures for ownCloud server.  For 
 
 ## Installing an ownCloud Server with Docker
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+
+**Important:** Ensure that you have met the server system requirements, which are documented in the core documentation under [Officially Recommended & Supported Options](https://doc.owncloud.com/server/admin_manual/installation/system_requirements.html).  The section documents [server options](https://doc.owncloud.com/server/admin_manual/installation/system_requirements.html#server) (versions), which ownCloud can add to or change with new releases. The section also provides important notes, deprecations, and [server memory](https://doc.owncloud.com/server/admin_manual/installation/system_requirements.html#memory-requirements) and [database](https://doc.owncloud.com/server/admin_manual/installation/system_requirements.html#database-requirements) requirements.
+
+**Note:** Samples in the procedures that follow are representative.
+
+Perform the following steps.
+
 
 ### Header 3
 
