@@ -117,11 +117,21 @@ You must have admin privileges to perform this procedure.
     
     b. Enter the new user’s email address.
 
-
 8. If you want to assign group admin privileges to your new user, select the Group Admin for dropdown.  Group administrators have the rights to create, edit, and delete users in their assigned groups.
 9. Select the Quota dropdown to choose a quota other than the default.  The quota is the maximum amount of disk space assigned to the new user.
    
+## Connecting to ownCloud Using a Browser
+Perform the following steps to access your ownCloud server.
 
+1. Launch your web browser.  Currently supported browsers include Firefox 14+, Chrome 18+, Safari 5+, and IE11+ (not compatibility mode).
+
+2. Enter the address of your ownCloud server.
+
+3. Enter your username and password.
+
+4. Optionally, select Stay logged in. Note that this option may be disabled depending upon the additional applications included in your ownCloud environment.
+
+5. Click the arrow the right of the password to login.
  
 ### Header 3
 
