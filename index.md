@@ -9,7 +9,13 @@ The ownCloud platform is a flexible and durable open source file synchronization
 
 This appendix includes specific QuickStart procedures for ownCloud server.  For more information on ownCloud, refer to the [complete documentation set](https://doc.owncloud.com).
 
-## Installing an ownCloud Server with Docker
+This appendix includes:
+ - Installing an ownCloud Server with Docker [install](#install)
+ - Enabling User Connections to an LDAP Server [enabling](#enabling)
+ - Adding a User Account [adding](#adding)
+ - Connecting to ownCloud Using a Browser [connecting](#connecting)
+
+## <a name"install"></a>Installing an ownCloud Server with Docker
 
 
 **Important:** Ensure that you have met the server system requirements, which are documented in the core documentation under [Officially Recommended & Supported Options](https://doc.owncloud.com/server/admin_manual/installation/system_requirements.html).  The section documents [server options](https://doc.owncloud.com/server/admin_manual/installation/system_requirements.html#server) (versions), which ownCloud can add to or change with new releases. The section also provides important notes, deprecations, and [server memory](https://doc.owncloud.com/server/admin_manual/installation/system_requirements.html#memory-requirements) and [database](https://doc.owncloud.com/server/admin_manual/installation/system_requirements.html#database-requirements) requirements.
@@ -58,7 +64,7 @@ Perform the following steps.
 
       [http://localhost:8080](http://localhost:8080/)
   
-## Enabling User Connections to an LDAP Server
+## <a name"enabling"></a>Enabling User Connections to an LDAP Server
 You must have admin privileges to perform this procedure.
 
 This procedure provides the steps necessary to allow a user to connect to an LDAP server using the server’s IP address and port.  The examples in the procedure use 192.0.2.1 as the IP, and 8080 as the port number.
@@ -82,7 +88,7 @@ Perform the following steps.
 6. In the **One Base DN** per line field, enter the base DN.
 7. Complete your LDAP configuration for other LDAP Configuration Panel tabs, as necessary, by following the procedures under [User Authentication with LDAP](https://doc.owncloud.com/server/10.1/admin_manual/configuration/user/user_auth_ldap.html) .
 
-## Adding a User Account
+## <a name"adding"></a>Adding a User Account
 
 You must have admin privileges to perform this procedure.
 
@@ -109,7 +115,7 @@ You must have admin privileges to perform this procedure.
 8. If you want to assign group admin privileges to your new user, select the **Group Admin for** dropdown.  Group administrators have the rights to create, edit, and delete users in their assigned groups.
 9. Select the **Quota** dropdown to choose a quota other than the default.  The quota is the maximum amount of disk space assigned to the new user.
    
-## Connecting to ownCloud Using a Browser
+## <a name"connecting"></a>Connecting to ownCloud Using a Browser
 Perform the following steps to access your ownCloud server.
 
 1. Launch your web browser.  Currently supported browsers include Firefox 14+, Chrome 18+, Safari 5+, and IE11+ (not compatibility mode).
