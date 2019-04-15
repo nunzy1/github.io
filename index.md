@@ -136,6 +136,6 @@ Perform the following steps to access your ownCloud server.
 
 4. Optionally, select **Stay logged in**. Note that this option may be disabled depending upon the additional applications included in your ownCloud environment.
 
-5. Click the arrow the right of the password to login.
+5. Click the arrow to the right of the password to login.
  
 
